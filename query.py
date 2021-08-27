@@ -75,7 +75,7 @@ before_min = mean(min_rssi_b)
 before_max = mean(max_rssi_b)
 # average min and max RSSI - after update
 after_min = mean(min_rssi_a)
-after_max = mean(min_rssi_b)
+after_max = mean(max_rssi_a)
 
 print("Avg RSSI Before 07-30-21 update | Min_RSSI: ", before_min, "| Max_RSSI: ", before_max)
 print("Before Sample Size: ", len(min_rssi_b))
